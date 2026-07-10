@@ -103,7 +103,7 @@ links:
     url: https://archive.org/details/...
     type: primary_source
   - label: MacTutor biography of Évariste Galois
-    url: https://mathshistory.stsydney.edu.au/Biographies/Galois
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Galois
     type: biography
   - label: Britannica entry on Évariste Galois
     url: https://www.britannica.com/biography/Evariste-Galois

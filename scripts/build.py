@@ -205,6 +205,18 @@ def build() -> int:
             print(f"  - {e}", file=sys.stderr)
         return 1
 
+    entry_ids = {e["id"] for e in entries}
+    relation_errors: list[str] = []
+    for e in entries:
+        for rel_id in e.get("related", []) or []:
+            if rel_id not in entry_ids:
+                relation_errors.append(f"{e['id']}: related id '{rel_id}' does not exist")
+    if relation_errors:
+        print("related-reference validation failed:", file=sys.stderr)
+        for e in relation_errors:
+            print(f"  - {e}", file=sys.stderr)
+        return 1
+
     entries.sort(key=lambda e: e["date"])
     eras.sort(key=lambda e: e["order"])
 
