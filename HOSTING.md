@@ -32,20 +32,13 @@ Total payload is small. Map tiles come from OpenStreetMap CDN at runtime, not bu
 
 | Setting | Value |
 |---|---|
-| Build command | `python scripts/build.py` |
+| Build command | `python3 scripts/build.py` |
 | Build output directory | `site` |
 | Root directory | project root |
-| Python version | 3.11 (matches dev environment) |
+| Python version | 3.13 (Cloudflare Pages default at time of setup) |
 | Environment variables | none |
 
-Cloudflare Pages detects Python projects via a `requirements.txt` if needed. We only need PyYAML. Two options:
-
-1. Commit `data.json` and use an empty build command. Site deploys as-is.
-2. Use a real build step. Cloudflare Pages runs the build command on each push.
-
-Recommendation: option 2 (real build). The build script validates entries. Validation belongs in CI, not just local dev.
-
-Add `requirements.txt` at project root with one line: `PyYAML>=6.0`.
+Cloudflare Pages auto-detects `requirements.txt` at the repo root and runs `pip install -r requirements.txt` for you **before** the build command executes. Do not repeat `pip install` inside the build command — Cloudflare's build image only exposes `pip3`/`python3` via asdf shims, not bare `pip`, and re-running it there fails with `pip: not found`. The build command should just invoke the script directly: `python3 scripts/build.py` (bare `python` is not guaranteed to be shimmed either — use `python3`).
 
 ## data.json in git
 
