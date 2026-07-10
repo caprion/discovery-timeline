@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relationship Graph</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Relationship Graph</h1>
+    <p class="lede">
+      These mathematicians were not alone. They argued, borrowed ideas, worked
+      in the same rooms, and helped each other. Tap a person to see who they are
+      connected to. Tap a line to read the story of that connection.
+    </p>
+  </header>
+
+  <main class="layout">
+    <section class="graph-panel" aria-label="Graph of mathematicians and how they connect">
+      <div class="legend" id="legend" aria-label="What the lines mean"></div>
+      <div class="graph-wrap">
+        <svg id="graph" viewBox="0 0 1000 700" role="img"
+             aria-label="Nine mathematicians shown as circles, joined by lines that show how they are connected"
+             preserveAspectRatio="xMidYMid meet">
+          <defs>
+            <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5"
+                    markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <path d="M0,0 L10,5 L0,10 z" fill="#1a5c4c"></path>
+            </marker>
+          </defs>
+          <rect id="backdrop" x="0" y="0" width="1000" height="700" fill="transparent" pointer-events="all"></rect>
+          <g id="edges-layer"></g>
+          <g id="nodes-layer"></g>
+        </svg>
+      </div>
+    </section>
+
+    <aside class="detail-panel" id="detail" aria-live="polite">
+      <!-- Filled in by app.js -->
+    </aside>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
