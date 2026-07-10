@@ -1,0 +1,36 @@
+id: euler-1736
+title: Euler and the seven bridges
+date: "1736"
+date_label: "1736"
+era: revolution-in-europe
+place:
+  name: St Petersburg, Russia
+  lat: 59.9343
+  lng: 30.3351
+  reason: Euler wrote the Seven Bridges paper while working at the St Petersburg Academy.
+people:
+  - name: Leonhard Euler
+    role: mathematician
+field: graph theory, topology
+idea: Euler showed that the Seven Bridges of Königsberg problem depends only on connections between places, not exact distances or shapes.
+unlocked: That simple bridge puzzle opened graph theory and pointed toward topology, the mathematics of connected shapes.
+hook: Euler looked at a map of a city he had never visited and proved a walk through it was impossible.
+sources:
+  - Leonhard Euler, "Solutio problematis ad geometriam situs pertinentis," Commentarii Academiae Scientiarum Imperialis Petropolitanae, vol. 8 (1741)
+  - Brian Hopkins and Robin Wilson, "The Truth about Königsberg," College Mathematics Journal 35, no. 3 (2004)
+  - William Dunham, Euler: The Master of Us All (Mathematical Association of America, 1999)
+links:
+  - label: Euler's Seven Bridges paper (University of the Pacific archive)
+    url: https://scholarlycommons.pacific.edu/euler-works/53/
+    type: primary_source
+  - label: MacTutor biography of Leonhard Euler
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Euler/
+    type: biography
+  - label: Britannica entry on Leonhard Euler
+    url: https://www.britannica.com/biography/Leonhard-Euler
+    type: encyclopedia
+story_file: stories/euler-1736.md
+reading_age: 7
+confidence: high
+tags: [russia, graph-theory, topology, maps, bridges]
+related: [newton-1687, gauss-1796, poincare-1895]

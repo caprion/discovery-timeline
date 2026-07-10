@@ -1,0 +1,10 @@
+id: house-of-wisdom
+name: House of Wisdom
+date_start: "0700"
+date_end: "1100"
+order: 2
+color: "#1a5c4c"
+description: |
+  Baghdad's House of Wisdom was a translation factory. Scholars took Greek, Indian, and Persian mathematical texts and turned them into Arabic. Al-Khwarizmi wrote the first book of algebra there. The word "algorithm" comes from his name.
+contributors: [al-Khwarizmi, al-Kindi, Omar Khayyam, Ibn al-Haytham]
+region: Baghdad, Damascus, Cairo

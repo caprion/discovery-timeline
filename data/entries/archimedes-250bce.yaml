@@ -1,0 +1,36 @@
+id: archimedes-250bce
+title: Archimedes of Syracuse
+date: "-0250"
+date_label: "c. 250 BCE"
+era: greek-foundations
+place:
+  name: Syracuse, Sicily
+  lat: 37.0755
+  lng: 15.2866
+  reason: Archimedes wrote Measurement of a Circle in Syracuse, where he made public his bounded approximation of pi.
+people:
+  - name: Archimedes
+    role: mathematician, engineer
+field: geometry
+idea: In Measurement of a Circle, Archimedes bounded pi between 3 10/71 and 3 1/7 by comparing a circle to inscribed and circumscribed 96-sided polygons.
+unlocked: He showed how to trap a hard answer between two easier ones, a proof style that shaped later work on geometry, limits, and pi.
+hook: A Roman soldier killed him in Syracuse after finding him bent over circles scratched in the sand.
+sources:
+  - T. L. Heath, trans., The Works of Archimedes (Cambridge University Press, 1897)
+  - Reviel Netz and William Noel, The Archimedes Codex (Da Capo Press, 2007)
+  - E. J. Dijksterhuis, Archimedes (Princeton University Press, 1987)
+links:
+  - label: The Works of Archimedes (Internet Archive scan)
+    url: https://archive.org/details/worksofarchimede00arch
+    type: primary_source
+  - label: MacTutor biography of Archimedes
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/
+    type: biography
+  - label: Britannica entry on Archimedes
+    url: https://www.britannica.com/biography/Archimedes
+    type: encyclopedia
+story_file: stories/archimedes-250bce.md
+reading_age: 7
+confidence: high
+tags: [greece, sicily, geometry, pi, polygons]
+related: [aryabhata-499, hypatia-400]

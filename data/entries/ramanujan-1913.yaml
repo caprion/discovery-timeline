@@ -1,0 +1,38 @@
+id: ramanujan-1913
+title: Ramanujan's letter from Madras
+date: "1913"
+date_label: "1913"
+era: modern-mathematics
+place:
+  name: Madras (now Chennai), Tamil Nadu, India
+  lat: 13.0827
+  lng: 80.2707
+  reason: Wrote and mailed his famous first letter to G.H. Hardy on 16 January 1913 from Madras, where he worked as a clerk at the Madras Port Trust (not from Kumbakonam — he had moved to Madras by 1912)
+people:
+  - name: Srinivasa Ramanujan
+    role: mathematician, autodidact
+field: number theory, analysis, combinatorics
+idea: Derived thousands of original theorems in number theory and analysis without formal training, working from a single trigonometry textbook.
+unlocked: Inspired new work across combinatorics, the theory of partitions, and mock theta functions. Many of his results are still being extended today.
+hook: At a clerk's desk in south India, Srinivasa Ramanujan copied pages of strange formulas into a letter and sent them to England.
+sources:
+  - Robert Kanigel, The Man Who Knew Infinity (1991)
+  - G.H. Hardy, "The Indian Mathematician Ramanujan," Journal of the Indian Mathematical Society (1921)
+  - Bruce C. Berndt and Robert A. Rankin, Ramanujan: Letters and Commentary (1995)
+links:
+  - label: "MacTutor biography of Srinivasa Ramanujan"
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Ramanujan/
+    type: biography
+  - label: "Britannica entry on Srinivasa Ramanujan"
+    url: https://www.britannica.com/biography/Srinivasa-Ramanujan
+    type: encyclopedia
+  - label: "Ramanujan's lost notebook (Internet Archive scan)"
+    url: https://archive.org/details/ramanujanslostno0000unse
+    type: primary_source
+  - label: "G.H. Hardy, The Indian Mathematician Ramanujan (1921)"
+    url: https://www.imsc.res.in/~rao/ramanujan/Hardy1921.pdf
+    type: primary_source
+story_file: stories/ramanujan-1913.md
+reading_age: 7
+confidence: high
+tags: [india, autodidact, correspondence, cambridge, self-taught]

@@ -1,0 +1,36 @@
+id: aryabhata-499
+title: Aryabhata and the Aryabhatiya
+date: "0499"
+date_label: "499 CE"
+era: indian-mathematics
+place:
+  name: Kusumapura, India (modern Patna, Bihar)
+  lat: 25.5941
+  lng: 85.1376
+  reason: Aryabhata wrote and first circulated the Aryabhatiya at Kusumapura, the Gupta capital.
+people:
+  - name: Aryabhata I
+    role: mathematician, astronomer
+field: mathematics, astronomy
+idea: In the Aryabhatiya, Aryabhata gave pi as 62832/20000, accurate to four decimal places, and set out one of the first systematic sine tables.
+unlocked: His verse handbook shaped Indian astronomy and trigonometry for centuries and gave later scholars a compact model of mathematical writing.
+hook: At 23, Aryabhata wrote pi to four decimal places in verse in the Gupta capital.
+sources:
+  - Walter Eugene Clark, trans., The Aryabhatiya of Aryabhata (University of Chicago Press, 1930)
+  - Georges Ifrah, The Universal History of Numbers (Wiley, 2000)
+  - Kim Plofker, Mathematics in India (Princeton University Press, 2009)
+links:
+  - label: The Aryabhatiya of Aryabhata (Internet Archive scan)
+    url: https://archive.org/details/in.ernet.dli.2015.283547
+    type: primary_source
+  - label: MacTutor biography of Aryabhata
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/
+    type: biography
+  - label: Britannica entry on Aryabhata
+    url: https://www.britannica.com/biography/Aryabhata-I
+    type: encyclopedia
+story_file: stories/aryabhata-499.md
+reading_age: 7
+confidence: high
+tags: [india, astronomy, pi, trigonometry, verse]
+related: [al-khwarizmi-820, bhaskara-ii-1150, archimedes-250bce]

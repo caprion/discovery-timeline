@@ -1,0 +1,36 @@
+id: noether-1918
+title: Emmy Noether and symmetry
+date: "1918"
+date_label: "1918"
+era: modern-mathematics
+place:
+  name: Göttingen, Germany
+  lat: 51.5328
+  lng: 9.9352
+  reason: Noether presented Invariante Variationsprobleme at Göttingen in 1918.
+people:
+  - name: Emmy Noether
+    role: mathematician
+field: algebra, mathematical physics
+idea: Noether proved that every continuous symmetry in a physical system matches a conservation law, such as time symmetry matching energy conservation.
+unlocked: Her theorem became a foundation of modern physics and showed that abstract algebra could reveal the hidden structure of nature.
+hook: Emmy Noether proved one of the deepest theorems in physics while Göttingen would not even hire her properly.
+sources:
+  - Emmy Noether, "Invariante Variationsprobleme," Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen (1918)
+  - M. A. Tavel, trans., "Invariant Variation Problems," Transport Theory and Statistical Physics 1, no. 3 (1971)
+  - Auguste Dick, Emmy Noether 1882-1935 (Birkhäuser, 1981)
+links:
+  - label: English translation of Noether's theorem paper (arXiv)
+    url: https://arxiv.org/abs/physics/0503066
+    type: primary_source
+  - label: MacTutor biography of Emmy Noether
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/
+    type: biography
+  - label: Britannica entry on Emmy Noether
+    url: https://www.britannica.com/biography/Emmy-Noether
+    type: encyclopedia
+story_file: stories/noether-1918.md
+reading_age: 7
+confidence: high
+tags: [germany, symmetry, physics, algebra, gottingen]
+related: [gauss-1796, galois-1832, kovalevskaya-1888]

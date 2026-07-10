@@ -1,0 +1,16 @@
+All shared instructions live in `C:\Learn\CLAUDE.md`.
+
+For project-specific context, also read:
+
+- `CLAUDE.md`
+- `.memory/context.md`
+- `README.md`
+
+When a named role is requested, prefer the project-local wrappers first:
+
+- `.cursor/rules/planner.mdc`
+- `.cursor/rules/researcher.mdc`
+- `.cursor/rules/coder.mdc`
+- `.cursor/rules/coder-batch.mdc`
+- `.cursor/rules/reviewer.mdc`
+

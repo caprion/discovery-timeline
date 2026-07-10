@@ -1,0 +1,36 @@
+id: poincare-1895
+title: Henri Poincaré and topology
+date: "1895"
+date_label: "1895"
+era: modern-mathematics
+place:
+  name: Paris, France
+  lat: 48.8566
+  lng: 2.3522
+  reason: Poincaré published Analysis Situs in Paris in 1895.
+people:
+  - name: Henri Poincaré
+    role: mathematician, physicist
+field: topology
+idea: In Analysis Situs, Poincaré studied shapes by their connectedness, introduced the fundamental group, and helped create modern topology.
+unlocked: He gave mathematicians tools for telling shapes apart without measuring them, which later led to the Poincaré Conjecture and much of twentieth-century topology.
+hook: He wrote so fast colleagues joked he skipped straight to final drafts. In 1908 France put him in its literary academy for writing about science.
+sources:
+  - Henri Poincaré, "Analysis Situs," Journal de l'École Polytechnique, 2nd series, vol. 1 (1895)
+  - Roshan L. E. Sarkaria, "The topological work of Henri Poincaré," History of Topology (Elsevier, 1999)
+  - Jean-Marc Ginoux and Christian Gérini Verhulst, Henri Poincaré: Impatient Genius (Springer, 2012)
+links:
+  - label: CNRS archive for Poincaré's original Analysis Situs texts
+    url: https://analysis-situs.math.cnrs.fr/-Textes-originaux-.html
+    type: primary_source
+  - label: MacTutor biography of Henri Poincaré
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/
+    type: biography
+  - label: Britannica entry on Henri Poincaré
+    url: https://www.britannica.com/biography/Henri-Poincare
+    type: encyclopedia
+story_file: stories/poincare-1895.md
+reading_age: 7
+confidence: high
+tags: [france, topology, shapes, conjectures, paris]
+related: [euler-1736, gauss-1796, turing-1936]

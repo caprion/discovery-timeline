@@ -1,0 +1,38 @@
+id: galois-1832
+title: Galois and the night before the duel
+date: "1832-05-31"
+date_label: "31 May 1832"
+era: revolution-in-europe
+place:
+  name: Paris, France
+  lat: 48.8566
+  lng: 2.3522
+  reason: Wrote his last mathematical letter the night before his duel near Paris; died the next morning at Cochin hospital
+people:
+  - name: Évariste Galois
+    role: mathematician
+field: group theory, abstract algebra
+idea: Invented group theory, the mathematics of symmetry, in a letter written the night before his death.
+unlocked: Foundation for modern algebra, particle physics, crystallography, and modern cryptography.
+hook: The night before his duel, Évariste Galois filled page after page with math for a friend.
+sources:
+  - Évariste Galois, "Lettre testament" (29 May 1832)
+  - Harold M. Edwards, Galois Theory (Springer, 1984) — introduction with biographical context
+  - Tony Rothman, "Genius and Biographers: The Fictionalization of Évariste Galois," American Mathematical Monthly (1982)
+links:
+  - label: "MacTutor biography of Évariste Galois"
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Galois/
+    type: biography
+  - label: "Britannica entry on Évariste Galois"
+    url: https://www.britannica.com/biography/Evariste-Galois
+    type: encyclopedia
+  - label: "Tony Rothman, Genius and Biographers: The Fictionalization of Évariste Galois (American Mathematical Monthly, 1982)"
+    url: https://www.jstor.org/stable/2697648
+    type: modern_analysis
+  - label: "Harold Edwards, Galois Theory (Springer, 1984)"
+    url: https://link.springer.com/book/10.1007/978-1-4757-4310-2
+    type: modern_analysis
+story_file: stories/galois-1832.md
+reading_age: 7
+confidence: high
+tags: [france, tragedy, symmetry, abstract-algebra, quintic]

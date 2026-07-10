@@ -1,0 +1,10 @@
+id: latin-recovery
+name: Latin Recovery
+date_start: "1100"
+date_end: "1500"
+order: 4
+color: "#8b7560"
+description: |
+  Arabic math came to Europe through Spain and Italy. Fibonacci's "Book of Calculation" introduced Hindu-Arabic numerals to Latin readers. Pacioli wrote the first book on double-entry bookkeeping. The Mediterranean trade that made Italian city-states rich also carried ideas across borders.
+contributors: [Fibonacci, Jordanus de Nemore, Luca Pacioli, Nicolas Oresme]
+region: Italy, Spain, Portugal

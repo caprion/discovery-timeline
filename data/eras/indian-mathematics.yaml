@@ -1,0 +1,10 @@
+id: indian-mathematics
+name: Indian Mathematics
+date_start: "0500"
+date_end: "1600"
+order: 3
+color: "#c4a67d"
+description: |
+  Across India, mathematicians invented zero as a number, the decimal system, and infinite series for trigonometry. Madhava of Sangamagrama calculated pi to 11 decimal places around 1400, three hundred years before Europeans did it the same way. The Hindu-Arabic numerals we use today came from this tradition.
+contributors: [Aryabhata, Brahmagupta, Bhaskara II, Madhava of Sangamagrama]
+region: India (Kerala, Tamil Nadu, Rajasthan)

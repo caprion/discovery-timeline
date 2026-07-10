@@ -1,0 +1,36 @@
+id: fibonacci-1202
+title: Fibonacci and Liber Abaci
+date: "1202"
+date_label: "1202"
+era: latin-recovery
+place:
+  name: Pisa, Italy
+  lat: 43.7228
+  lng: 10.4017
+  reason: Fibonacci wrote Liber Abaci for readers in Pisa after learning Hindu-Arabic calculation in North Africa.
+people:
+  - name: Leonardo of Pisa (Fibonacci)
+    role: mathematician
+field: arithmetic, commerce
+idea: In Liber Abaci, Fibonacci showed Latin Europe how to use Hindu-Arabic numerals, place value, and practical calculation instead of Roman numerals.
+unlocked: His book helped merchants, bookkeepers, and later mathematicians adopt the number system the world still uses today.
+hook: Fibonacci came home from North Africa talking about the nine Indian figures and wrote the book that made Roman numerals start to look old.
+sources:
+  - Laurence E. Sigler, trans., Fibonacci's Liber Abaci (Springer, 2002)
+  - Keith Devlin, The Man of Numbers (Walker & Company, 2011)
+  - Kurt Vogel, "Fibonacci, Leonardo," Dictionary of Scientific Biography, vol. 4 (Scribner's, 1971)
+links:
+  - label: Digitized Liber Abaci manuscript via Museo Galileo
+    url: https://bibdig.museogalileo.it/Teca/Viewer?an=9923647732403161
+    type: primary_source
+  - label: MacTutor biography of Fibonacci
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/
+    type: biography
+  - label: Britannica entry on Fibonacci
+    url: https://www.britannica.com/biography/Fibonacci
+    type: encyclopedia
+story_file: stories/fibonacci-1202.md
+reading_age: 7
+confidence: high
+tags: [italy, numerals, trade, sequence, place-value]
+related: [al-khwarizmi-820, aryabhata-499, bhaskara-ii-1150, hypatia-400]

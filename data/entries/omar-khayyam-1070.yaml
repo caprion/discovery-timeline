@@ -1,0 +1,36 @@
+id: omar-khayyam-1070
+title: Omar Khayyam and cubic equations
+date: "1070"
+date_label: "1070"
+era: house-of-wisdom
+place:
+  name: Samarkand, Uzbekistan
+  lat: 39.6542
+  lng: 66.9597
+  reason: Omar Khayyam wrote his algebra treatise while working in Samarkand.
+people:
+  - name: Omar Khayyam
+    role: mathematician, astronomer, poet
+field: algebra, geometry
+idea: Omar Khayyam classified fourteen kinds of cubic equations and solved many of them by making conic sections cross.
+unlocked: He pushed algebra past quadratics and helped set up later questions about which equations can be solved and how.
+hook: Omar Khayyam spent one part of his life solving cubic equations and another writing poems people still quote today.
+sources:
+  - Daoud S. Kasir, trans., The Algebra of Omar Khayyam (Columbia Teachers College, 1931)
+  - Roshdi Rashed and Bijan Vahabzadeh, Omar Khayyam the Mathematician (Bibliotheca Persica, 2000)
+  - Dirk J. Struik, ed., A Source Book in Mathematics 1200-1800 (Harvard University Press, 1969)
+links:
+  - label: MacTutor biography of Omar Khayyam
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/
+    type: biography
+  - label: Britannica entry on Omar Khayyam
+    url: https://www.britannica.com/biography/Omar-Khayyam
+    type: encyclopedia
+  - label: Omar Khayyam's mathematics overview
+    url: https://en.wikipedia.org/wiki/Omar_Khayyam#Mathematics
+    type: modern_analysis
+story_file: stories/omar-khayyam-1070.md
+reading_age: 7
+confidence: high
+tags: [samarkand, algebra, conic-sections, poetry, cubic-equations]
+related: [al-khwarizmi-820, fibonacci-1202, galois-1832]

@@ -1,0 +1,36 @@
+id: gauss-1796
+title: Gauss and the 17-gon
+date: "1796"
+date_label: "1796"
+era: revolution-in-europe
+place:
+  name: Göttingen, Germany
+  lat: 51.5328
+  lng: 9.9352
+  reason: Gauss first announced the constructible 17-gon in Göttingen in 1796, years before the fuller 1801 proof in print.
+people:
+  - name: Carl Friedrich Gauss
+    role: mathematician
+field: geometry, number theory
+idea: At 18, Gauss discovered that a regular 17-sided polygon can be constructed with only a compass and straightedge.
+unlocked: His result reopened a problem untouched since ancient Greece and tied classical geometry to deep number theory.
+hook: At 18, Gauss solved a 2000-year-old geometry problem and wrote one line about it in his diary.
+sources:
+  - Carl Friedrich Gauss, Disquisitiones Arithmeticae (Leipzig, 1801)
+  - G. Waldo Dunnington, Carl Friedrich Gauss: Titan of Science (Mathematical Association of America, 2004)
+  - Jeremy Gray, "A 19th-century revolution in mathematical ontology," The History of Modern Mathematics, vol. 1 (Academic Press, 1989)
+links:
+  - label: Gauss's Disquisitiones Arithmeticae (Internet Archive scan)
+    url: https://archive.org/details/disquisitionesa00gaus
+    type: primary_source
+  - label: MacTutor biography of Carl Friedrich Gauss
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/
+    type: biography
+  - label: Britannica entry on Carl Friedrich Gauss
+    url: https://www.britannica.com/biography/Carl-Friedrich-Gauss
+    type: encyclopedia
+story_file: stories/gauss-1796.md
+reading_age: 7
+confidence: medium
+tags: [germany, geometry, number-theory, youth, gottingen]
+related: [euler-1736, noether-1918, ramanujan-1911]

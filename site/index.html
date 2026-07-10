@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Discovery Timeline</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Discovery Timeline</h1>
+    <p class="subtitle">Mathematics, on a map, across the centuries</p>
+  </header>
+
+  <nav class="era-nav" id="era-nav" aria-label="Eras">
+    <button class="era-tab active" data-era="all">All eras</button>
+    <!-- era tabs injected by app.js -->
+  </nav>
+
+  <section class="era-description" id="era-description" hidden>
+    <h2 id="era-description-name"></h2>
+    <p id="era-description-text"></p>
+    <p class="era-meta" id="era-description-meta"></p>
+  </section>
+
+  <main class="layout">
+    <div id="map" class="map" aria-label="World map of mathematical discoveries"></div>
+
+    <aside class="story-panel" id="story-panel" hidden>
+      <button class="close" id="story-close" aria-label="Close story">&times;</button>
+      <div class="story-content" id="story-content"></div>
+    </aside>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

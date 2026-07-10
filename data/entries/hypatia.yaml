@@ -1,0 +1,34 @@
+id: hypatia-400
+title: Hypatia of Alexandria
+date: "0400"
+date_label: "c. 400 CE"
+era: greek-foundations
+place:
+  name: Alexandria, Egypt
+  lat: 31.2001
+  lng: 29.9187
+  reason: Taught mathematics and philosophy at the Mouseion (Library of Alexandria), the last great library of the ancient world
+people:
+  - name: Hypatia
+    role: mathematician, astronomer, Neoplatonist philosopher
+field: mathematics, astronomy
+idea: Edited and commented on Ptolemy's Almagest and Diophantus's Arithmetic, preserving Greek mathematical knowledge through the early medieval period.
+unlocked: Kept Greek mathematics alive long enough to be translated into Arabic and Latin, where it fed the medieval and Renaissance traditions.
+hook: A mob killed her. We have her name because a student wrote about her.
+sources:
+  - Socrates Scholasticus, Ecclesiastical History, Book VII (5th c.)
+  - The Suda, Byzantine encyclopedia (10th c.)
+links:
+  - label: Britannica entry on Hypatia
+    url: https://www.britannica.com/biography/Hypatia
+    type: encyclopedia
+  - label: Socrates Scholasticus, Ecclesiastical History (Wikisource, English translation)
+    url: https://en.wikisource.org/wiki/Ecclesiastical_History_(Socrates)/Book_VII
+    type: primary_source
+  - label: Michael Deakin, "Hypatia and Her Mathematics," American Mathematical Monthly (1994)
+    url: https://www.maa.org/sites/default/files/pdf/awards/AMM-Deakin-0401.pdf
+    type: modern_analysis
+story_file: stories/hypatia-400.md
+reading_age: 7
+confidence: high
+tags: [ancient-greece, egypt, tragedy, preservation, instruments]

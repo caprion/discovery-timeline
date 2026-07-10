@@ -1,0 +1,34 @@
+id: pythagoras-530bce
+title: Pythagoras and the school at Croton
+date: "-0530"
+date_label: "c. 530 BCE"
+era: greek-foundations
+place:
+  name: Crotone, Italy (ancient Croton)
+  lat: 39.0833
+  lng: 17.1167
+  reason: Pythagoras founded his school-religious community at Croton, a Greek colony in southern Italy, around 530 BCE
+people:
+  - name: Pythagoras
+    role: mathematician, philosopher
+field: geometry, number theory
+idea: Proved that for any right triangle, the square of the longest side equals the sum of squares of the other two.
+unlocked: Gave trigonometry, navigation, and physics a basic tool. The proof method (show it must always be true) became the foundation of mathematics.
+hook: An Egyptian surveyor pulls a rope tight after the Nile flood.
+sources:
+  - Aristotle, Metaphysics (4th c. BCE) — discusses Pythagoreans
+  - Iamblichus, On the Pythagorean Way of Life (3rd c. CE)
+links:
+  - label: MacTutor biography of Pythagoras
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/
+    type: biography
+  - label: Britannica entry on Pythagoras
+    url: https://www.britannica.com/biography/Pythagoras
+    type: encyclopedia
+  - label: Euclid's Elements (Internet Archive, contains the Pythagorean theorem with classical proof)
+    url: https://archive.org/details/ElementsOfEuclid
+    type: primary_source
+story_file: stories/pythagoras-530bce.md
+reading_age: 7
+confidence: medium
+tags: [ancient-greece, italy, proof, geometry, surveying]

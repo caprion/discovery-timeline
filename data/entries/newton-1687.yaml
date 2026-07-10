@@ -1,0 +1,39 @@
+id: newton-1687
+title: Newton and the calculus feud
+date: "1687"
+date_label: "1687"
+era: revolution-in-europe
+place:
+  name: London, England
+  lat: 51.5074
+  lng: -0.1278
+  reason: The Royal Society published Newton's Principia in London in 1687, the first public appearance of his calculus methods.
+people:
+  - name: Isaac Newton
+    role: mathematician, physicist
+field: calculus, physics
+idea: In the Principia, Newton used his method of fluxions, an early form of calculus, to describe motion, force, and change.
+unlocked: Calculus became the language of physics, engineering, and astronomy, even though the notation most people use now came from Leibniz.
+hook: Newton invented calculus in plague isolation, hid it for years, and then watched Leibniz publish first.
+sources:
+  - Richard S. Westfall, Never at Rest: A Biography of Isaac Newton (Cambridge University Press, 1980)
+  - Isaac Newton, Philosophiae Naturalis Principia Mathematica (1687)
+  - A. Rupert Hall, Philosophers at War (Cambridge University Press, 1980)
+links:
+  - label: Newton's Principia Mathematica (Internet Archive scan)
+    url: https://archive.org/details/philosophiaenatu00newt_0
+    type: primary_source
+  - label: MacTutor biography of Isaac Newton
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Newton/
+    type: biography
+  - label: Britannica entry on Isaac Newton
+    url: https://www.britannica.com/biography/Isaac-Newton
+    type: encyclopedia
+  - label: Leibniz-Newton calculus controversy overview
+    url: https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy
+    type: modern_analysis
+story_file: stories/newton-1687.md
+reading_age: 7
+confidence: medium
+tags: [england, calculus, physics, publication, priority-dispute]
+related: [euler-1736, galois-1832, noether-1918]

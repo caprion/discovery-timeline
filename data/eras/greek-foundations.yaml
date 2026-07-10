@@ -1,0 +1,10 @@
+id: greek-foundations
+name: Greek Foundations
+date_start: "-0600"
+date_end: "0500"
+order: 1
+color: "#c2452d"
+description: |
+  Greek thinkers turned math from a list of practical tricks into a system of proof. Pythagoras, Euclid, Archimedes, and Hypatia built the first schools where you had to show your work. Euclid's "Elements" is still in print 2300 years after he wrote it.
+contributors: [Pythagoras, Euclid, Archimedes, Hypatia]
+region: Mediterranean

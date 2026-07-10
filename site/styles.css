@@ -1,0 +1,301 @@
+/* Indian Earth palette, from C:\Learn\CLAUDE.md */
+:root {
+  --bg: #faf6f0;
+  --surface: #ffffff;
+  --border: #ede4d5;
+  --text: #3d2b1f;
+  --text-muted: #8b7560;
+  --accent: #c2452d;
+  --accent-soft: #e06b55;
+  --action: #1a5c4c;
+  --action-soft: #3d9e82;
+  --tertiary: #c4a67d;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.site-header {
+  padding: 1rem 1.5rem 0.5rem;
+  background: var(--bg);
+}
+
+.site-header h1 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin: 0;
+  color: var(--text);
+}
+
+.subtitle {
+  margin: 0.1rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Era navigation tabs */
+.era-nav {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.5rem 1.5rem 0.75rem;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.era-tab {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.45rem 0.9rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.era-tab:hover {
+  background: var(--border);
+}
+
+.era-tab.active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+}
+
+/* Era description panel */
+.era-description {
+  padding: 1rem 1.5rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.era-description[hidden] { display: none; }
+
+.era-description h2 {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  margin: 0 0 0.35rem;
+  color: var(--text);
+}
+
+.era-description p {
+  margin: 0 0 0.25rem;
+  color: var(--text);
+}
+
+.era-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted) !important;
+}
+
+/* Main layout: map fills, story panel overlays */
+.layout {
+  flex: 1;
+  display: flex;
+  position: relative;
+  min-height: 0;
+}
+
+.map {
+  flex: 1;
+  background: var(--border);
+}
+
+/* Story panel */
+.story-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(440px, 100%);
+  background: var(--surface);
+  border-left: 1px solid var(--border);
+  overflow-y: auto;
+  padding: 1.5rem 1.5rem 2rem;
+  box-shadow: -4px 0 12px rgba(61, 43, 31, 0.08);
+  z-index: 1000;
+}
+
+.story-panel[hidden] { display: none; }
+
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  background: transparent;
+  border: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text-muted);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.close:hover { color: var(--accent); background: var(--border); }
+
+.story-content h2 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  margin: 0 2rem 0.5rem 0;
+  color: var(--text);
+}
+
+.story-meta {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.story-meta .field-pill {
+  display: inline-block;
+  background: var(--border);
+  color: var(--text);
+  padding: 0.15rem 0.55rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-left: 0.4rem;
+}
+
+.story-hook {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--accent);
+  margin: 0 0 1rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--accent);
+}
+
+.story-body p {
+  margin: 0 0 0.85rem;
+}
+
+.story-body h2 {
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 1.25rem 0 0.5rem;
+}
+
+.story-body ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.story-body li {
+  margin-bottom: 0.35rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.story-body a {
+  color: var(--action);
+  text-decoration: none;
+  border-bottom: 1px solid var(--action-soft);
+}
+
+.story-body a:hover {
+  color: var(--action-soft);
+  border-bottom-color: var(--action);
+}
+
+/* Map overrides for the cream palette */
+.map .leaflet-popup-content-wrapper {
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 6px;
+}
+
+.map .leaflet-popup-tip { background: var(--surface); }
+
+.map .leaflet-popup-content {
+  margin: 0.75rem 1rem;
+  font-family: var(--sans);
+}
+
+.map .leaflet-popup-content strong {
+  font-family: var(--serif);
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+.map .leaflet-popup-content em {
+  color: var(--text-muted);
+  font-style: normal;
+  font-size: 0.85rem;
+}
+
+/* Custom dot marker, color set inline per entry */
+.dot-marker {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 3px solid var(--surface);
+  box-shadow: 0 2px 6px rgba(61, 43, 31, 0.4);
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.2s ease;
+}
+
+.dot-marker:hover {
+  transform: scale(1.3);
+}
+
+.dot-marker.dim {
+  opacity: 0.2;
+}
+
+.dot-marker.active {
+  transform: scale(1.4);
+  box-shadow: 0 2px 12px rgba(61, 43, 31, 0.7);
+}
+
+/* Mobile */
+@media (max-width: 720px) {
+  .site-header { padding: 0.75rem 1rem 0.5rem; }
+  .site-header h1 { font-size: 1.3rem; }
+  .era-nav { padding: 0.4rem 1rem 0.6rem; }
+  .era-tab { padding: 0.4rem 0.7rem; font-size: 0.8rem; }
+  .story-panel {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-height: 70vh;
+    border-left: none;
+    border-top: 1px solid var(--border);
+  }
+  .era-description { padding: 0.75rem 1rem; }
+}

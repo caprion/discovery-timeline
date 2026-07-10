@@ -1,0 +1,10 @@
+id: revolution-in-europe
+name: Revolution in Europe
+date_start: "1500"
+date_end: "1900"
+order: 5
+color: "#3d2b1f"
+description: |
+  Calculus, analytic geometry, probability, group theory, modern algebra. Almost every concept in a high school math curriculum was invented in this 400-year window. Descartes put algebra on a graph. Newton and Leibniz independently invented calculus. Galois died at 20 and took group theory with him.
+contributors: [Descartes, Fermat, Pascal, Newton, Leibniz, Euler, Gauss, Galois, Riemann, Cantor]
+region: France, Germany, England, Switzerland

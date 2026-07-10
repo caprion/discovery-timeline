@@ -1,0 +1,10 @@
+id: modern-mathematics
+name: Modern Mathematics
+date_start: "1850"
+date_end: "2025"
+order: 6
+color: "#3d9e82"
+description: |
+  Modern math lives in foundations: what math is, what can be computed, what can be proven. Noether rewrote algebra around symmetry. Gödel showed that any interesting system has statements it cannot prove. Turing invented the abstract model of every computer. Ramanujan arrived from India with thousands of theorems and no formal training.
+contributors: [Noether, Ramanujan, Gödel, Turing, Kolmogorov, Grothendieck]
+region: Germany, India, England, USA, Russia, France

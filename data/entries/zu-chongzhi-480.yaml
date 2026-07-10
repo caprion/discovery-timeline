@@ -1,0 +1,36 @@
+id: zu-chongzhi-480
+title: Zu Chongzhi and 355/113
+date: "0480"
+date_label: "c. 480 CE"
+era: greek-foundations
+place:
+  name: Jiankang, China (modern Nanjing)
+  lat: 32.0603
+  lng: 118.7969
+  reason: Zu Chongzhi worked in Jiankang, where the now-lost Zhui Shu was written and known to later Chinese scholars.
+people:
+  - name: Zu Chongzhi
+    role: mathematician, astronomer
+field: mathematics, astronomy
+idea: Zu Chongzhi found the fraction 355/113 for pi, accurate to six decimal places, and recorded it in the lost book Zhui Shu.
+unlocked: His result set a world standard for pi and showed how strong Chinese mathematical astronomy had become.
+hook: While the western Roman Empire was falling apart, Zu Chongzhi in Nanjing found a value of pi Europe would not match for about 1000 years.
+sources:
+  - Joseph Needham, Science and Civilisation in China, vol. 3 (Cambridge University Press, 1959)
+  - Lay Yong Lam and Tian Se Ang, Fleeting Footsteps (World Scientific, 1992)
+  - Yan Li and Du Shiran, trans. John N. Crossley and Anthony W.-C. Lun, Chinese Mathematics: A Concise History (Clarendon Press, 1987)
+links:
+  - label: MacTutor biography of Zu Chongzhi
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Zu_Chongzhi/
+    type: biography
+  - label: Britannica entry on Zu Chongzhi
+    url: https://www.britannica.com/biography/Zu-Chongzhi
+    type: encyclopedia
+  - label: Milu and the fraction 355/113
+    url: https://en.wikipedia.org/wiki/Mil%C3%BC
+    type: modern_analysis
+story_file: stories/zu-chongzhi-480.md
+reading_age: 7
+confidence: high
+tags: [china, pi, astronomy, era-boundary, lost-text]
+related: [archimedes-250bce, aryabhata-499]

@@ -1,0 +1,36 @@
+id: kovalevskaya-1888
+title: Sofia Kovalevskaya and the spinning top
+date: "1888"
+date_label: "1888"
+era: modern-mathematics
+place:
+  name: Stockholm, Sweden
+  lat: 59.3293
+  lng: 18.0686
+  reason: Kovalevskaya worked as professor in Stockholm, and her prize-winning rigid-body work appeared through that academic world.
+people:
+  - name: Sofia Kovalevskaya
+    role: mathematician
+field: analysis, mechanics
+idea: Kovalevskaya solved a special case of how a rigid body spins around a fixed point by using hyperelliptic functions, a new class of curves and equations.
+unlocked: Her work became one of the three classic integrable spinning-top cases and opened doors for later work in mechanics and mathematical physics.
+hook: Sofia Kovalevskaya entered a fake marriage to leave Russia, then later won a major math prize with an anonymous paper.
+sources:
+  - Sofia Kovalevskaya, "Sur le problème de la rotation d'un corps solide autour d'un point fixe," Acta Mathematica 12 (1889)
+  - Ann Hibner Koblitz, A Convergence of Lives (Birkhäuser, 1983)
+  - Roger Cooke, The Mathematics of Sonya Kovalevskaya (Springer, 1984)
+links:
+  - label: MacTutor biography of Sofia Kovalevskaya
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Kovalevskaya/
+    type: biography
+  - label: Britannica entry on Sofia Kovalevskaya
+    url: https://www.britannica.com/biography/Sofya-Vasilyevna-Kovalevskaya
+    type: encyclopedia
+  - label: Acta Mathematica archive
+    url: https://www.mittag-leffler.se/acta-mathematica/
+    type: primary_source
+story_file: stories/kovalevskaya-1888.md
+reading_age: 7
+confidence: medium
+tags: [sweden, russia, women-in-math, mechanics, prize]
+related: [noether-1918, galois-1832, euler-1736]

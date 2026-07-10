@@ -1,0 +1,39 @@
+id: turing-1936
+title: Alan Turing imagines a machine
+date: "1936"
+date_label: "1936"
+era: modern-mathematics
+place:
+  name: Cambridge, England
+  lat: 52.2053
+  lng: 0.1218
+  reason: Turing wrote and submitted On Computable Numbers from King's College, Cambridge.
+people:
+  - name: Alan Turing
+    role: mathematician, logician
+field: logic, computation
+idea: Turing described an abstract machine that reads and writes symbols on a tape and used it to show that some problems can never be solved by any algorithm.
+unlocked: He gave computer science its clearest starting model and proved there are hard limits on what machines can do.
+hook: At 24, Turing pictured a machine that did not exist and used it to prove what no machine could ever compute.
+sources:
+  - Alan M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem," Proceedings of the London Mathematical Society, series 2, vol. 42 (1936)
+  - Andrew Hodges, Alan Turing: The Enigma (Simon and Schuster, 1983)
+  - B. Jack Copeland, ed., The Essential Turing (Oxford University Press, 2004)
+links:
+  - label: Turing's On Computable Numbers (Internet Archive scan)
+    url: https://archive.org/details/pdfy-Zc8HeJshvCrCGg1N
+    type: primary_source
+  - label: MacTutor biography of Alan Turing
+    url: https://mathshistory.st-andrews.ac.uk/Biographies/Turing/
+    type: biography
+  - label: Britannica entry on Alan Turing
+    url: https://www.britannica.com/biography/Alan-Turing
+    type: encyclopedia
+  - label: Overview of On Computable Numbers
+    url: https://en.wikipedia.org/wiki/On_Computable_Numbers,_with_an_Application_to_the_Entscheidungsproblem
+    type: modern_analysis
+story_file: stories/turing-1936.md
+reading_age: 7
+confidence: medium
+tags: [england, computation, logic, undecidability, cambridge]
+related: [galois-1832, noether-1918, gauss-1796]
